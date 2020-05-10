@@ -1,0 +1,48 @@
+name: flutterbook
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  uuid: ^2.0.4
+  firebase_storage: ^3.1.5
+  path: ^1.6.4
+  firebase_analytics: ^5.0.11
+  get_it: ^1.0.3+2
+  flutter_spinkit: ^4.1.2+1
+  provider: ^4.0.5+1
+  font_awesome_flutter: ^8.8.1
+  flutter_slidable: 0.5.4
+  image_picker: ^0.6.6+1
+  flutter_calendar_carousel: 1.4.10
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  firebase_auth: ^0.16.0
+  cloud_firestore: ^0.13.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+#  assets:
+#    - images/
+
+  fonts:
+    - family: RobotoSlab
+      fonts:
+        - asset: fonts/RobotoSlab-Medium.ttf
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+    - family: Aladin
+      fonts:
+        - asset: fonts/Aladin-Regular.ttf
